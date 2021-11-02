@@ -3,6 +3,6 @@
     "Values": {
       "AzureWebJobsStorage": "UseDevelopmentStorage=true;",
       "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-      "AzureSQLConnectionString": "Server=.database.windows.net,1433;Database=bus_db;UID=af-user;PWD=;Connection Timeout=30;"
+      "AzureSQLConnectionString": "Server=tcp:bus-server932977.database.windows.net,1433;Initial Catalog=bus-db;Persist Security Info=False;User ID=cloudadmin;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     }
   }
